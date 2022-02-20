@@ -34,14 +34,13 @@ body {
   gap: 1.6rem;
   box-shadow: 0.1rem 0.1rem 0.1rem var(--overlay-color);
 }
-.text-container {
-  padding: 2.4rem 2rem;
-  background-color: var(--card-color);
-}
+
 .text-container h2 {
   color: var(--header-color);
   margin-bottom: 1.2rem;
   margin-top: 1.5rem;
+  text-align: justify;
+  width: 80%;
 }
 .text-container p {
   color: var(--paragraph-color);
@@ -49,6 +48,8 @@ body {
   font-weight: lighter;
   margin-bottom: 4rem;
   opacity: 0.7;
+  text-align: justify;
+  width: 90%;
 }
 .text-container h2 span {
   color: var(--overlay-color);
